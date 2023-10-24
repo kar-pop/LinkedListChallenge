@@ -1,5 +1,20 @@
+import pop.kar.Itinerary;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Itinerary itinerary = new Itinerary();
+        itinerary.addTown("Adelaide", 1374);
+        itinerary.addTown("Alice Springs", 2771);
+        itinerary.addTown("Brisbane", 917);
+        itinerary.addTown("Darwin", 3972);
+        itinerary.addTown("Melbourne", 877);
+        itinerary.addTown("Melbourne", 877);
+        itinerary.addTown("Perth", 3923);
+
+        itinerary.printItineraryList();
+
+
+
     }
 }
