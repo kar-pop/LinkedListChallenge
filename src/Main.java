@@ -9,7 +9,7 @@ public class Main {
         itinerary.addTown("Brisbane", 917);
         itinerary.addTown("Darwin", 3972);
         itinerary.addTown("Melbourne", 877);
-        itinerary.addTown("Melbourne", 877);
+        itinerary.addTown("melbourne", 877);
         itinerary.addTown("Perth", 3923);
 
         itinerary.runItineraryList();

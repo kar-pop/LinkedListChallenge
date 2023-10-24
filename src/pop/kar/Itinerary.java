@@ -54,10 +54,10 @@ public class Itinerary {
         boolean listGoingForward = true;
 
         while (!quit) {
+            System.out.print("\nSelect action: ");
+            String choice = scanner.nextLine().toUpperCase();
 
-            String choice = scanner.nextLine();
-
-            switch (choice.toUpperCase().charAt(0)) {
+            switch (choice.charAt(0)) {
 
                 case 'F' -> {
                     if (listIterator.hasNext()) {
@@ -113,7 +113,7 @@ public class Itinerary {
 
     private void printMenuOptions() {
         System.out.println("""
-                Available actions (select word or letter):
+                Available actions (select word or letter and press enter):
                 (F)orward
                 (B)ackward
                 (L)ist Places
