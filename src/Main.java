@@ -12,7 +12,7 @@ public class Main {
         itinerary.addTown("Melbourne", 877);
         itinerary.addTown("Perth", 3923);
 
-        itinerary.printItineraryList();
+        itinerary.runItineraryList();
 
 
 

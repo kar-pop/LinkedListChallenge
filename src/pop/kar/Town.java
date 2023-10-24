@@ -1,6 +1,6 @@
 package pop.kar;
 
- record Town(String townName, int distanceFromSydney) {
+record Town(String townName, int distanceFromSydney) {
 
      @Override
      public boolean equals(Object o) {
@@ -12,6 +12,6 @@ package pop.kar;
 
      @Override
      public String toString() {
-         return townName + "is " + distanceFromSydney + " miles from Sydney";
+         return String.format( "%-15s is %5d miles from Sydney",townName , distanceFromSydney);
      }
  }
